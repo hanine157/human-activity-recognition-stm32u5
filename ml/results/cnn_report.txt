@@ -1,0 +1,16 @@
+Classification report
+
+              precision    recall  f1-score   support
+
+  stationary       1.00      0.61      0.76       786
+     walking       0.90      0.98      0.94      3518
+     running       0.95      0.95      0.95      3270
+
+    accuracy                           0.93      7574
+   macro avg       0.95      0.85      0.88      7574
+weighted avg       0.93      0.93      0.93      7574
+
+Confusion matrix
+[[ 481  205  100]
+ [   1 3449   68]
+ [   0  165 3105]]
